@@ -82,3 +82,19 @@ section {
     height: 150px;
     padding: 2px;
 }
+
+/* page 2: meditation */
+
+#sidebarmeditation {
+    width: 30%;
+    float: right;
+    height: 100%;
+    background-color: #F6E7E6;
+}
+
+#mainmeditation {
+    width: 70%;
+    float: left;
+    height: 100%;
+    background-color: #F6E5F5;
+}
