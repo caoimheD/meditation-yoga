@@ -72,3 +72,13 @@ section {
     background-color: #F6E5F5;
 
 }
+
+.images {
+    text-align: center;
+}
+
+.images > img {
+    width: 250px;
+    height: 150px;
+    padding: 2px;
+}
