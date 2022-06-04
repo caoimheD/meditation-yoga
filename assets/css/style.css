@@ -83,6 +83,15 @@ section {
     padding: 2px;
 }
 
+h3 {
+    text-align: center;
+    padding: 5px;
+}
+
+p {
+    text-align: center;
+    padding: 5px;
+}
 /* page 2: meditation */
 
 #sidebarmeditation {
@@ -102,10 +111,8 @@ section {
 /* Form */
 
 .signup {
-    clear: left;
-    background-size: cover;
-    background-position: center;
     height: 300px;
+    padding-top: 50px;
 }
 
 .form {
