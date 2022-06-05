@@ -5,46 +5,49 @@
 }
 /* header */
 header {
-    background-color: #F6E7E6;
+    background-color: #EED6C4;
     height: 90px;
     width: 100%;
 }
 h1 {
-    color: black;
+    color: #483434;
     text-transform: uppercase;
     text-align: center;
     font-size: 250%;
     font-weight: 200;
     letter-spacing: 3px;
+    font-family: 'Oxygen', sans-serif;
 }
 h2 {
-    color: black;
+    color: #483434;
     text-align: center;
     font-size: 150%;
     font-weight: 200;
+    font-family: 'Oxygen', sans-serif;
 }
 /* navigation links */
 .links {
     text-align: center;
     font-size: 120%;
     text-decoration: none;
-    background-color: #B9CCED;
+    background-color: #6B4F4F;
     word-spacing: 15px;
-    color: #F6E5F5;
+    color: #FFF3E4;
     height: 25px;
+    font-family: 'Oxygen', sans-serif;
 }
 a {
     text-decoration: none;
-    color: magenta;
+    color: #FFF3E4;
 }
 .links a:hover {
-    background-color: #F6E5F5;
-    color: #B9CCED;
+    background-color: #FFF3E4;
+    color: #6B4F4F;
 }
 
 /* body */
 body {
-    background-color: #FBF4F9;
+    background-color: #FFF3E4;
 }
 section {
     display: block;
@@ -53,8 +56,8 @@ section {
 #content {
     width: 80%;
     height: 800px;
-    border: 5px solid #B9CCED;
-    background-color: #F6E5F5;
+    border: 5px solid #6B4F4F;
+    background-color: #EED6C4;
     margin: auto;
 }
 
@@ -62,14 +65,15 @@ section {
     width: 30%;
     float: left;
     height: 100%;
-    background-color: #F6E7E6;
+    background-color: #EED6C4;
 }
 
 #main {
     width: 70%;
     float: right;
     height: 100%;
-    background-color: #F6E5F5;
+    background-color: #EED6C4;
+    font-family: 'Oxygen', sans-serif;
 
 }
 
@@ -86,11 +90,13 @@ section {
 h3 {
     text-align: center;
     padding: 5px;
+    font-family: 'Oxygen', sans-serif;
 }
 
 p {
     text-align: center;
     padding: 5px;
+    font-family: 'Oxygen', sans-serif;
 }
 /* page 2: meditation */
 
@@ -106,6 +112,7 @@ p {
     float: left;
     height: 100%;
     background-color: #F6E5F5;
+    font-family: 'Oxygen', sans-serif;
 }
 
 /* Form */
@@ -122,11 +129,13 @@ p {
     max-width: 450px;
     padding: 10px;
     margin-top: 10px;
+    font-family: 'Oxygen', sans-serif;
   
 }
 .form h2 {
     color: black;
     margin-bottom: 20px;
+    font-family: 'Oxygen', sans-serif;
 }
 
 .input {
@@ -152,6 +161,7 @@ p {
     background-color: #F6E7E6;
     color: black;
     display: block;
+    font-family: 'Oxygen', sans-serif;
 }
 
 .submit-button:hover {

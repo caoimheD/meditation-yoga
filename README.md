@@ -25,6 +25,11 @@ Pages
 
 ## Content credits
 
+Font was selected from Google Fonts: https://fonts.google.com/specimen/Oxygen
+
+Images were taken from the stock images site Unsplash: https://unsplash.com/
+
+Color Palette taken from Color Hung: https://colorhunt.co/palette/4834346b4f4feed6c4fff3e4
 ---
 
 ## Other
