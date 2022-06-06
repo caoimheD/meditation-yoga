@@ -33,6 +33,8 @@ Color palette taken from Color Hunt: https://colorhunt.co/palette/4834346b4f4fee
 
 Icons taken from Font Awesome: https://fontawesome.com/
 
+Meditation info: https://www.mayoclinic.org/tests-procedures/meditation/in-depth/meditation/art-20045858
+
 ---
 
 ## Other
