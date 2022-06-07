@@ -115,6 +115,7 @@ p {
     background-color: #EED6C4;
     font-family: 'Oxygen', sans-serif;
     overflow: hide;
+    color: #483434;
 }
 
 .meditationsteps {
@@ -124,13 +125,27 @@ p {
     padding: 5px;
     margin: 2px;
     list-style-position: inside;
+    font-weight: 200;
     
 }
 
 .meditationsteps li {
     text-align: center;
-    padding-left: 10px;
+    padding: 5px;
     
+}
+
+.externallink {
+    text-decoration: none;
+    font-weight: bold;
+    color: #483434;
+}
+
+#playlist1 {
+    height: 300px;
+    width: 600px;
+    padding-top: 5px;
+    border-radius: 12px;
 }
 
 /* Form */
@@ -186,3 +201,6 @@ p {
     background-color: #EED6C4;
     color: #483434;
 }
+
+
+/* Media Queries */
