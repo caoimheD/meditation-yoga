@@ -99,6 +99,20 @@ p {
     font-family: 'Oxygen', sans-serif;
     font-size: 110%;
 }
+/* footer */
+footer {
+    min-height: 25px;
+    background-color: #483434;
+}
+
+.social {
+    text-align: center;
+}
+
+.social > li {
+    display: inline;
+}
+
 /* page 2: meditation */
 
 #sidebarmeditation {
@@ -207,16 +221,15 @@ p {
 
 /* for larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-
-}
+ 
 
 /* for medium screens size from 950px wide and down */
 
 @media screen and (max-width: 950px) {
-
+  
 }
-
-@media screen and (max-width: 800px) {
+  
+@media screen and (max-width: 820px) {
 
     h1 {
         font-size: 200%;
@@ -226,23 +239,35 @@ p {
         font-size: 120%;
     }
 
+    .images {
+        padding-top:20px;
+    }
+
     .images > img {
         width: 150px;
         height: 100px;
-        padding: 2px;
+        padding: 20px;
     }
 
-    
+    .signup {
+        padding-right: 5px;
+    }
+  
 }
 
+
 @media screen and (max-width: 640px) {
-    #imgquery {
+    #sidebar {
         display: none;
     }
 
+   #main {
+    max-width: 100%;
+   }
+
     .form {
         width: 80%;
-        height: 300px;
+        height: 330px;
     }
 
 }
