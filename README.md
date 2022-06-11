@@ -6,20 +6,50 @@ The purpose of this website is to provide information and resources on the topic
 
 ## Features
 Navigation bar
-Sign up form
+
+The navigation bar is fully responsive and provides links to the Homepage, the second page and the third page. The navigation bar is displayed on all three pages.
+The purpose of the navigation bar is to provide easy access to all 3 pages for the user, and avoids them having to use the 'back' button or re-enter the website URL to get back to the homepage.
+
+IMG
+
 Section
+
+The section part is dispalyed on both the homepage and on the second page. This is a box which contains the content of these pages.
+On the homepage, it provides the user with information about how the website is structured and what they can expect from the other pages. There is also a collage of images for esthetic purposes.
+On the second page, this section contains again a collage of images and in the text section, it provides the users with information on the topics of meditation and yoga. It also contains a link to Spotify and Youtube, where users can find additional information.
+
+Sign up form
+
+The sign up form provides the users with the option to enter their name and email address to receive a free class in either yoga or meditation, or both. All requested information is required in order for the form submission to be successful.
+
 Images
+
+Images are displayed on all three pages for esthetic and UX/UI purposes. All images are realted to the topics of the website.
+
 Footer
+
+The footer section is displayed on all three pages and contains links to social media platforms. The user can click on these and they will open in a new tab, showing the social media site selected.
+
 Pages
+
+There are three pags on this webiste: Homepage, Page2, Page3.
 
 
 ------
 
 ## Testing
 
+Testing:
+Table: Action (first column), expected behaviour, pass/fail/result
+
+
 ------
 
 ## Deployment
+
+Local deployment
+Command prompt: git clone and paste https://github.com/caoimheD/meditation-yoga.git
+
 
 ---
 

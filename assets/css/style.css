@@ -136,17 +136,18 @@ footer {
     text-align: center;
     font-family: 'Oxygen', sans-serif;
     color: #483434;
-    padding: 5px;
+    padding: 2px;
     margin: 2px;
     list-style-position: inside;
     font-weight: 200;
+    display: inline-grid;
     
 }
 
 .meditationsteps li {
-    text-align: center;
+    text-align: left;
     padding: 5px;
-    
+    overflow-wrap: break-word;
 }
 
 .externallink {
