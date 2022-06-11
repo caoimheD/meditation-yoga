@@ -69,11 +69,12 @@ section {
 }
 
 #main {
-    max-width: 70%;
+    width: 70%;
     float: right;
     height: 100%;
     background-color: #EED6C4;
     font-family: 'Oxygen', sans-serif;
+    overflow-wrap: break-word;
 
 }
 
@@ -99,10 +100,23 @@ p {
     font-family: 'Oxygen', sans-serif;
     font-size: 110%;
 }
+
+#homepageimage {
+    max-width: 400px;
+    max-height: 300px;
+    padding: 2px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 /* footer */
 footer {
     min-height: 25px;
     background-color: #483434;
+    position:absolute;
+   bottom:0;
+    width: 100%;
 }
 
 .social {
@@ -142,6 +156,24 @@ footer {
     font-weight: 200;
     display: inline-grid;
     
+}
+
+.meditationsteps2 {
+    font-family: 'Oxygen', sans-serif;
+    color: #483434;
+    padding: 2px;
+    margin: 2px;
+    list-style-position: inside;
+    font-weight: 200;
+    
+}
+
+.meditationsteps2 li{
+
+    text-align: center;
+    padding: 5px;
+    overflow-wrap: break-word;
+
 }
 
 .meditationsteps li {
@@ -222,24 +254,26 @@ footer {
 
 /* for larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
+
+    #playlist1 {
+        height: 200px;
+        width: 400px;
+        padding-top: 5px;
+        border-radius: 12px;
+    }
+
+    .meditationsteps li {
+        text-align: center;
+    }
+    .meditationsteps {
+        display: inline;
+    }
+
  
 
 /* for medium screens size from 950px wide and down */
 
 @media screen and (max-width: 950px) {
-  
-}
-  
-@media screen and (max-width: 820px) {
-
-    h1 {
-        font-size: 200%;
-    }
-
-    h2 {
-        font-size: 120%;
-    }
-
     .images {
         padding-top:20px;
     }
@@ -250,25 +284,62 @@ footer {
         padding: 20px;
     }
 
-    .signup {
-        padding-right: 5px;
+
+
+
+}
+  
+@media screen and (max-width: 800px) {
+
+    h1 {
+        font-size: 200%;
     }
+
+    h2 {
+        font-size: 120%;
+    }
+
+   #sidebar {
+    display: none;
+}
+
+    #main {
+    width: 100%;
+    text-align: center;
+}
+
+#homepageimage {
+    margin-top: 30px;
+    height: 170px;
+    width: 220px;
+    overflow: hidden;
+}
+
+    #sidebarmeditation {
+    display: none;
+}
+
+    #mainmeditation {
+    width: 100%;
+}
+
+
+   #playlist1 {
+    height: 130px;
+    width: 230px;
+    padding-top: 5px;
+    border-radius: 12px;
+}
+
+footer {
+    position: fixed;
+}
+
   
 }
 
 
 @media screen and (max-width: 640px) {
-    #sidebar {
-        display: none;
-    }
 
-   #main {
-    max-width: 100%;
-   }
-
-    .form {
-        width: 80%;
-        height: 330px;
-    }
 
 }
