@@ -32,7 +32,7 @@ The footer section is displayed on all three pages and contains links to social 
 
 Pages
 
-There are three pags on this webiste: Homepage, Page2, Page3.
+There are three pags on this webiste: Homepage, Meditation&Yoga, Resources.
 
 
 ------
@@ -41,6 +41,14 @@ There are three pags on this webiste: Homepage, Page2, Page3.
 
 Testing:
 Table: Action (first column), expected behaviour, pass/fail/result
+
+| Action        | Expected Behaviour  | Result | 
+| ------------- | ------------- | ------------- | 
+| Enter url of site in browser  | site shows homepage | pass | 
+| Click on meditation menu item  | site shows page 2  | pass | 
+| Click on resources menu item  | site shows page 3  | pass | 
+| Click on submit button without data | form does not submit, error msg  | pass |
+| Click on submit button with data  | form submits  | pass |
 
 
 ------
