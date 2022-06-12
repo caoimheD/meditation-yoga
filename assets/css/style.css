@@ -328,14 +328,6 @@ footer {
   
 @media screen and (max-width: 800px) {
 
-    h1 {
-        font-size: 200%;
-    }
-
-    h2 {
-        font-size: 120%;
-    }
-
    #sidebar {
     display: none;
 }
@@ -376,7 +368,19 @@ footer {
 }
 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 400px) {
 
+    .links a {
+        display: block;
+        padding: 3px;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    h2 {
+        font-size: 120%;
+    }
 
 }
