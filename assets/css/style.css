@@ -159,7 +159,7 @@ footer {
     height: 100%;
     background-color: #EED6C4;
     font-family: 'Oxygen', sans-serif;
-    overflow: hide;
+    overflow: hidden;
     color: #483434;
 }
 
@@ -268,7 +268,7 @@ footer {
 .submit-button  {
     margin-top: 20px;
     border-radius: 2px;
-    padding: 15px 32px 15px 32px;
+    padding: 15px 30px 15px 30px;
     text-align: center;
     font-size: 100%;
     background-color: #483434;
@@ -302,9 +302,10 @@ footer {
         display: inline;
     }
 
-    footer {
+    /* footer {
         position: fixed;
-    }
+    } */
+}
 
 /* for medium screens size from 950px wide and down */
 
@@ -354,9 +355,9 @@ footer {
     border-radius: 12px;
 }
 
-footer {
+/* footer {
     position: fixed;
-}
+} */
 
   
 }
@@ -375,6 +376,17 @@ footer {
 
     h2 {
         font-size: 120%;
+    }
+    .options {
+        display: block;
+        float: left;
+        width:  100%;
+        padding: 2px;
+    }
+
+    .optiontype {
+        float: left;
+        padding: 2px;
     }
 
 }
