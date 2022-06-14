@@ -40,15 +40,27 @@ There are three pags on this webiste: Homepage, Meditation&Yoga, Resources.
 ## Testing
 
 Testing:
-Table: Action (first column), expected behaviour, pass/fail/result
 
 | Action        | Expected Behaviour  | Result | 
 | ------------- | ------------- | ------------- | 
 | Enter url of site in browser  | site shows homepage | pass | 
 | Click on meditation menu item  | site shows page 2  | pass | 
 | Click on resources menu item  | site shows page 3  | pass | 
-| Click on submit button without data | form does not submit, error msg  | pass |
-| Click on submit button with data  | form submits  | pass |
+| Form: Click on submit button without data | form does not submit, error msg  | pass |
+| Form: Click on submit button with data  | form submits  | pass |
+| Click on spotify playlist items  | music plays  | pass |
+| Click on footer items  | social media sites open | pass |
+
+
+Validator Testing
+
+HTML
+
+No errors were returned when passing through the official W3C validator
+
+CSS
+
+No errors were found when passing through the official (Jigsaw) validator
 
 
 ------
@@ -56,6 +68,7 @@ Table: Action (first column), expected behaviour, pass/fail/result
 ## Deployment
 
 Local deployment
+
 Command prompt: git clone and paste https://github.com/caoimheD/meditation-yoga.git
 
 
