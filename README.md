@@ -22,17 +22,21 @@ Sign up form
 
 The sign up form provides the users with the option to enter their name and email address to receive a free class in either yoga or meditation, or both. All requested information is required in order for the form submission to be successful.
 
+![nav](assets/images/form.png)
+
 Images
 
-Images are displayed on all three pages for esthetic and UX/UI purposes. All images are realted to the topics of the website.
+Images are displayed on all three pages for esthetic and UI purposes. These are all stock images and are realted to the topics of the website.
 
 Footer
 
 The footer section is displayed on all three pages and contains links to social media platforms. The user can click on these and they will open in a new tab, showing the social media site selected.
 
+![nav](assets/images/footer.png)
+
 Pages
 
-There are three pags on this webiste: Homepage, Meditation&Yoga, Resources.
+There are three pages on this webiste: Homepage, Meditation&Yoga, Resources.
 
 
 ------
