@@ -10,7 +10,7 @@ Navigation bar
 The navigation bar is fully responsive and provides links to the Homepage, the second page and the third page. The navigation bar is displayed on all three pages.
 The purpose of the navigation bar is to provide easy access to all 3 pages for the user, and avoids them having to use the 'back' button or re-enter the website URL to get back to the homepage.
 
-IMG
+![nav](assets/images/nav.png)
 
 Section
 
