@@ -15,12 +15,12 @@ The purpose of the navigation bar is to provide easy access to all 3 pages for t
 Section
 
 The section part is dispalyed on both the homepage and on the second page. This is a box which contains the content of these pages.
-On the homepage, it provides the user with information about how the website is structured and what they can expect from the other pages. There is also a collage of images for esthetic purposes.
-On the second page, this section contains again a collage of images and in the text section, it provides the users with information on the topics of meditation and yoga. It also contains a link to Spotify and Youtube, where users can find additional information.
+On the homepage, it provides the user with information about how the website is structured and what they can expect from the other pages. There is also a collage of images..
+On the second page, this section contains again a collage of images and in the text section, it provides the users with information on the topics of meditation and yoga. It also contains a link to Spotify and Wikipedia, where users can find additional information.
 
 Sign up form
 
-The sign up form provides the users with the option to enter their name and email address to receive a free class in either yoga or meditation, or both. All requested information is required in order for the form submission to be successful.
+The sign up form provides the users with the option to enter their name and email address to receive a free class in either yoga or meditation, or both. All requested information is required in order for the form submission to be successful. This redirects to a page where the user sees a thank you message. From this page, they can easily navigate back to page of their choice by using the navigation bar.
 
 ![nav](assets/images/form.png)
 
@@ -71,9 +71,18 @@ No errors were found when passing through the official (Jigsaw) validator
 
 ## Deployment
 
+The site was deployed to GitHub pages:
+
+GitHub repository -> Settings tab
+
+Selected 'Pages' and changed source to 'main' and folder to 'root'
+
+Live link for page: https://caoimhed.github.io/meditation-yoga/
+
 Local deployment
 
 Command prompt: git clone and paste https://github.com/caoimheD/meditation-yoga.git
+
 
 
 ---
