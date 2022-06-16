@@ -175,7 +175,16 @@ footer {
     list-style-position: inside;
     font-weight: 200;
     display: inline-grid;
+    font-size: 100%;
     
+}
+
+#benefitslist {
+    display: inline-grid;
+}
+
+#benefitslist2 {
+    display: inline-grid;
 }
 
 .meditationsteps2 {
@@ -185,6 +194,8 @@ footer {
     margin: 2px;
     list-style-position: inside;
     font-weight: 200;
+    font-size: 100%;
+    text-align: center;
     
 }
 
@@ -222,18 +233,20 @@ footer {
     height: 100%;
     background-color: #EED6C4;
     font-family: 'Oxygen', sans-serif;
-    overflow: hide;
+    overflow: hidden;
     color: #483434;
 }
 
 #resources {
     text-align: center;
+    padding: 5px;
+    line-height: 40px;
 }
 
 /* Form */
 
 .signup {
-    max-height: 300px;
+    min-height: 300px;
     padding-top: 50px;
 }
 
@@ -268,12 +281,12 @@ footer {
 }
 
 .submit-button  {
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 2px;
     padding: 15px 30px 15px 30px;
     text-align: center;
     font-size: 100%;
-    background-color: #483434;
+    background-color: #6B4F4F;
     color: #FFF3E4;
     display: block;
     font-family: 'Oxygen', sans-serif;
@@ -281,7 +294,7 @@ footer {
 
 .submit-button:hover {
     background-color: #EED6C4;
-    color: #483434;
+    color: #6B4F4F;
 }
 
 
@@ -302,11 +315,23 @@ footer {
     }
     .meditationsteps {
         display: inline;
+        
     }
 
-    /* footer {
-        position: fixed;
-    } */
+    #benefitslist {
+        display: inline;
+    }
+
+    #benefitslist2 {
+        display: inline;
+    }
+
+    #resources {
+        text-align: center;
+        padding: 2px;
+        line-height: 30px;
+    }
+
 }
 
 /* for medium screens size from 950px wide and down */
@@ -327,27 +352,27 @@ footer {
 
    #sidebar {
     display: none;
-}
+    }
 
     #main {
     width: 100%;
     text-align: center;
-}
+    }
 
 #homepageimage {
     margin-top: 30px;
     height: 200px;
     width: 250px;
     overflow: hidden;
-}
+    }
 
     #sidebarmeditation {
     display: none;
-}
+    }
 
     #mainmeditation {
     width: 100%;
-}
+    }
 
 
    #playlist1 {
@@ -355,13 +380,8 @@ footer {
     width: 230px;
     padding-top: 5px;
     border-radius: 12px;
-}
-
-/* footer {
-    position: fixed;
-} */
-
-  
+    }
+    
 }
 
 @media screen and (max-width: 400px) {
