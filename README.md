@@ -22,7 +22,7 @@ Sign up form
 
 The sign up form provides the users with the option to enter their name and email address to receive a free class in either yoga or meditation, or both. All requested information is required in order for the form submission to be successful. This redirects to a page where the user sees a thank you message. From this page, they can easily navigate back to page of their choice by using the navigation bar.
 
-![nav](assets/images/form.png)
+![nav](assets/images/signupform.png)
 
 Images
 
