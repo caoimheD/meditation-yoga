@@ -27,9 +27,14 @@ On the meditation and yoga page, this section contains again a collage of images
 
 Sign up form
 
-The sign up form provides the users with the option to enter their name and email address to receive a free class in either yoga or meditation, or both. All requested information is required in order for the form submission to be successful. This redirects to a page where the user sees a thank you message. From this page, they can easily navigate back to page of their choice by using the navigation bar.
+The sign up form provides the users with the option to enter their name and email address to receive a free class in either yoga or meditation, or both. All requested information is required in order for the form submission to be successful. 
 
 ![nav](assets/images/signupform.png)
+
+Completion of the form redirects to a page where the user sees a thank you message. From this page, they can easily navigate back to page of their choice by using the navigation bar.
+
+![nav](assets/images/thankyou.png)
+
 
 Images
 
@@ -83,17 +88,19 @@ Device responsivness was tested through the use of Chrome Developer Tools. Diffe
 
 Based on this testing, the decision was made to remove some of the images on smaller screens (max width 800px) and to reduce the image size on medium screens (max width 950px).
 
-The height and width of the Spotify playlist was also changed on smaller device sizes, along with the navigation menu being displayed vertically insteady of horizontally on screens with a max width of 400px. This change of the navigation bar allows users on mobile screens to still view the menu items in a user friendly manner and be able to click on them without any issue (padding was added so that users would not accidentally click on the wrong menu iten on small screens). The options in the sign up form also display vertically on a small screen size for the same reason.
+The height and width of the Spotify playlist was also changed on smaller device sizes, along with the navigation menu being displayed vertically insteady of horizontally on screens with a max width of 400px. This change of the navigation bar allows users on mobile screens to still view the menu items in a user friendly manner and be able to click on them without any issue (padding was added so that users would not accidentally click on the wrong menu item on small screens). The options in the sign up form also display vertically on a small screen size for the same reason.
+
+![nav](assets/images/navsmall.png)
 
 Other minor adjustments, such as the display and alignment of the lists and list items on the mediation&yoga page, were made for screens with a max width of 1200px based on the testing conducted with Chrome Developer Tools.
 
-The website now has a fully responsive design and users can interact with the features easily on different screen sizes and devices.
+<img src="assets/images/mobile.png" width="250" height="300">
 
-![nav](assets/images/true.png)
+The website now has a fully responsive design and users can interact with the features easily on different screen sizes and devices.
 
 **Other general testing**
 
-While the webiste was being built, features were tested and viewed through Google Chrome browers and Chrome Developer Tools and any changes were made based on how the website was dispalying. These changes include the colour scheme and font and the choice of images, along with the overal design layout of the website.
+While the webiste was being built, features were tested and viewed through Google Chrome browers and Chrome Developer Tools and any changes were made based on how the website was displaying. These changes include the colour scheme and font and the choice of images, along with the overal design layout of the website.
 
 ------
 
@@ -125,5 +132,7 @@ Color palette taken from Color Hunt: https://colorhunt.co/palette/4834346b4f4fee
 Icons taken from Font Awesome: https://fontawesome.com/
 
 Meditation info: https://www.mayoclinic.org/tests-procedures/meditation/in-depth/meditation/art-20045858
+
+Yoga info: https://en.wikipedia.org/wiki/Yoga
 
 ---
