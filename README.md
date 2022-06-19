@@ -4,12 +4,13 @@ Welcome!
 
 The purpose of this website is to provide information and resources on the topics of yoga and meditation. The target audience is users who are interested in learning more about these practices and who are looking for information.
 
-By navigating through the webiste, users will be provided with information and links to resources where they can find out more and deepen their understanding of these topics. The layout of the website is explained on the homepage, so they will be able to easily navigate through the different pages.
+By navigating through the webiste, users will be provided with information and links to resources where they can find out more and deepen their understanding of these topics. The layout of the website is explained on the homepage, so they will be able to easily navigate through the different pages by using the navigation links.
 
 ![nav](assets/images/responsive2.png)
 
 ## Features
-Navigation bar
+
+**Navigation bar**
 
 The navigation bar is fully responsive and provides links to the Homepage, the Meditation&Yoga page and the resources page. The navigation bar is displayed on all three pages, allowing users to return to any page of their choice.
 
@@ -17,17 +18,19 @@ The purpose of the navigation bar is to provide easy access to all 3 pages for t
 
 ![nav](assets/images/nav.png)
 
-Section
+**Section**
 
-The section part is dispalyed on both the homepage and on the Meditation&Yoga page. This is esentially a box which contains the content that is displayed on these pages.
+The section part is dispalyed on all 3 pages (homepage, Meditation&Yoga, resources). This is esentially a box which contains the content that is displayed on these pages.
 
-On the homepage, it provides the user with information about how the website is structured and what they can expect from the other pages. There is also a collage of images.
+On the homepage, it provides the user with information about how the website is structured and what they can expect from the other pages. There is also a collage of images. To create this, the section box was divided into a 'sidebar' and a 'main' part. The 'main' part is 70% of the width and the 'sidebar' takes up 30% of the width of the section box.
 
-On the meditation and yoga page, this section contains again a collage of images and in the text section it provides the users with information on the topics of meditation and yoga. It also contains a link to Spotify where users can listen to music to help them with meditation.
+On the meditation and yoga page, this section contains again a collage of images (this time displayed on the right side instead of the left) and in the text section it provides the users with information on the topics of meditation and yoga. It also contains a link to Spotify where users can listen to music to help them with thier meditation session.
 
-Sign up form
+On the resources page, the section box does not contain the sidebar with images. On this page, the 'main' section has been given 100% of the width of the box.
 
-The sign up form provides the users with the option to enter their name and email address to receive a free class in either yoga or meditation, or both. All requested information is required in order for the form submission to be successful. 
+**Sign up form**
+
+The sign up form is located on the resources page and provides the users with the option to enter their name and email address to receive a free class in either yoga or meditation, or both. All requested information is required in order for the form submission to be successful. 
 
 ![nav](assets/images/signupform.png)
 
@@ -36,19 +39,19 @@ Completion of the form redirects to a page where the user sees a thank you messa
 ![nav](assets/images/thankyou.png)
 
 
-Images
+**Images**
 
-Images are displayed on all pages, expect for the resources page, for aesthetic purposes. These are all stock images and are realted to the topics of the website.
+Images are displayed on all pages, except for the resources page, for aesthetic purposes. These are all stock images and are related to the topics of the website.
 
-Footer
+**Footer**
 
 The footer section is displayed on all pages of the webiste and it contains links to social media platforms. The user can click on these links and they will open in a new tab, showing the social media site that has been selected.
 
 ![nav](assets/images/footer.png)
 
-Pages
+**Pages**
 
-In total there are 4 pages on this website: Homepage, Meditation&Yoga, Resources and the page that dispalys when fillng in the sign up form. This fourth page is only visible on completion of the form. If users do not use the form, they will have the 3 remaining pages visible to them and accessible through the navigation bar.
+In total there are 4 pages on this website: Homepage, Meditation&Yoga, Resources and the page that dispalys after fillng in the sign up form. This fourth page is only visible on completion of the form. If users do not use the form, they will have the 3 remaining pages visible to them and accessible through the navigation bar.
 
 
 ------
@@ -100,7 +103,7 @@ The website now has a fully responsive design and users can interact with the fe
 
 **Other general testing**
 
-While the webiste was being built, features were tested and viewed through Google Chrome browers and Chrome Developer Tools and any changes were made based on how the website was displaying. These changes include the colour scheme and font and the choice of images, along with the overal design layout of the website.
+While the website was being built, features were tested and viewed through Google Chrome browsers and Chrome Developer Tools and any changes were made based on how the website was displaying. These changes include the colour scheme, font and the choice of images, along with the overall design layout of the website.
 
 ------
 
@@ -118,6 +121,7 @@ Local deployment:
 
 This was done through Command prompt (git clone and paste https://github.com/caoimheD/meditation-yoga.git)
 
+![nav](assets/images/gitclone.png)
 
 ---
 
