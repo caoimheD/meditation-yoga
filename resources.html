@@ -53,17 +53,24 @@
             <label for="email">Email</label>
             <input id="email" type="email" required name="email" class="input">
 
-            <label for="meditation" class="options">Meditation Class
-            <input id="meditation" class ="optiontype" type="radio" required name="class_preference" value="meditation">
-            </label>
+            <div class="options">
+             
+            <span>
+            <label for="meditation"> Meditation Class </label>
+            <input id="meditation" type="radio" required name="class_preference" value="meditation">
+            </span>
             
-            <label for="yoga" class="options">Yoga Class
-            <input id="yoga"  class ="optiontype" type="radio" required name="class_preference" value="yoga">
-            </label>   
-            
-            <label for="both" class="options">Both
-            <input id="both" class ="optiontype" type="radio" required name="class_preference" value="both">
-            </label>        
+            <span>
+            <label for="yoga"> Yoga Class </label>   
+            <input id="yoga" type="radio" required name="class_preference" value="yoga">
+            </span>
+
+            <span>
+            <label for="both"> Both</label> 
+            <input id="both" type="radio" required name="class_preference" value="both">
+            </div>
+            </span>
+                   
 
             <input type="submit" value="Let's Meditate!" class="submit-button">
             

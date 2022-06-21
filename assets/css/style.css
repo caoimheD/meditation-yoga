@@ -195,13 +195,13 @@ footer {
     list-style-position: inside;
     font-weight: 200;
     font-size: 100%;
-    text-align: center;
+    text-align: left;
     
 }
 
 .meditationsteps2 li{
 
-    text-align: center;
+    text-align: left;
     padding: 5px;
     overflow-wrap: break-word;
 
@@ -224,6 +224,10 @@ footer {
     width: 600px;
     padding-top: 5px;
     border-radius: 12px;
+}
+
+#spotify {
+    padding-top: 5px;
 }
 
 /* page 3 */
@@ -301,7 +305,7 @@ footer {
 /* Media Queries */
 
 /* for larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
 
     #playlist1 {
         height: 200px;
@@ -311,7 +315,7 @@ footer {
     }
 
     .meditationsteps li {
-        text-align: center;
+        text-align: left;
     }
     .meditationsteps {
         display: inline;
@@ -330,6 +334,17 @@ footer {
         text-align: center;
         padding: 2px;
         line-height: 30px;
+    }
+    
+    
+    .meditationsteps2 {
+        text-align: left;
+        
+    }
+    
+    .meditationsteps2 li{
+        text-align: left;
+    
     }
 
 }
@@ -359,7 +374,7 @@ footer {
     text-align: center;
     }
 
-#homepageimage {
+    #homepageimage {
     margin-top: 30px;
     height: 200px;
     width: 250px;
@@ -399,15 +414,9 @@ footer {
         font-size: 120%;
     }
     .options {
-        display: block;
-        float: left;
-        width:  100%;
-        padding: 2px;
+        display: grid;
+        
     }
 
-    .optiontype {
-        float: left;
-        padding: 2px;
-    }
 
 }
