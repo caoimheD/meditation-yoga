@@ -102,7 +102,7 @@ The website now has a fully responsive design and users can interact with the fe
 
 **Lighthouse**
 
-Lighthouse testing was conduced through Chrome Developer Tools:
+Lighthouse testing was done through Chrome Developer Tools:
 
 ![nav](assets/images/lighthouse.png)
 
