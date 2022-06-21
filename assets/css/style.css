@@ -179,11 +179,7 @@ footer {
     
 }
 
-#benefitslist {
-    display: inline-grid;
-}
-
-#benefitslist2 {
+#benefitslist, #benefitslist2, #easysteps {
     display: inline-grid;
 }
 
@@ -322,11 +318,7 @@ footer {
         
     }
 
-    #benefitslist {
-        display: inline;
-    }
-
-    #benefitslist2 {
+    #benefitslist, #benefitslist2, #easysteps {
         display: inline;
     }
 
@@ -417,5 +409,5 @@ footer {
         display: grid;
         padding: 2px;
     }
-    
+
 }
