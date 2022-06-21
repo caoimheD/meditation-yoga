@@ -4,7 +4,7 @@ Welcome!
 
 The purpose of this website is to provide information and resources on the topics of yoga and meditation. The target audience is users who are interested in learning more about these practices and who are looking for information.
 
-By navigating through the webiste, users will be provided with information and links to resources where they can find out more and deepen their understanding of these topics. The layout of the website is explained on the homepage, so they will be able to easily navigate through the different pages by using the navigation links.
+By navigating through the website, users will be provided with information and links to resources where they can find out more and deepen their understanding of these topics. The layout of the website is explained on the homepage, so they will be able to easily navigate through the different pages by using the navigation links.
 
 ![nav](assets/images/responsive2.png)
 
@@ -68,6 +68,7 @@ In total there are 4 pages on this website: Homepage, Meditation&Yoga, Resources
 | Form: Click on submit button without data | form does not submit, error msg  | pass |
 | Form: Click on submit button with data  | form submits  | pass |
 | Click on spotify playlist items  | music plays  | pass |
+| Click on external links (pg3)  | sites open in new tab  | pass |
 | Click on footer items  | social media sites open | pass |
 
 
@@ -85,21 +86,25 @@ No errors were found when passing through the official (Jigsaw) validator for th
 
 ![nav](assets/images/cssvalidation.png)
 
-**Responsivness testing**
+**Responsiveness testing**
 
-Device responsivness was tested through the use of Chrome Developer Tools. Different screen sizes were selected and viewed. Testing was also conducted on live devices available to the student, such as iphone and laptop screens.
+Device responsiveness was tested through the use of Chrome Developer Tools. Different screen sizes were selected and viewed. Testing was also conducted on live devices available to the student, such as iphone and laptop screens.
 
 Based on this testing, the decision was made to remove some of the images on smaller screens (max width 800px) and to reduce the image size on medium screens (max width 950px).
 
-The height and width of the Spotify playlist was also changed on smaller device sizes, along with the navigation menu being displayed vertically insteady of horizontally on screens with a max width of 400px. This change of the navigation bar allows users on mobile screens to still view the menu items in a user friendly manner and be able to click on them without any issue (padding was added so that users would not accidentally click on the wrong menu item on small screens). The options in the sign up form also display vertically on a small screen size for the same reason.
+The height and width of the Spotify playlist was also changed on smaller device sizes, along with the navigation menu being displayed vertically insteady of horizontally on screens with a max width of 400px. This change of the navigation bar allows users on mobile screens to still view the menu items in a user friendly manner and be able to click on them without any issue (padding was added so that users would not accidentally click on the wrong menu item on small screens). The options in the sign up form also display vertically on a small screen size for the same reason. This was achieved by adding the options and radio buttons into a 'div' and 'span', which could then be stlyed as part of the media queries.
 
 ![nav](assets/images/navsmall.png)
 
-Other minor adjustments, such as the display and alignment of the lists and list items on the mediation&yoga page, were made for screens with a max width of 1200px based on the testing conducted with Chrome Developer Tools.
-
-<img src="assets/images/mobile.png" width="250" height="300">
+Other minor adjustments, such as the display and alignment of the lists and list items on the mediation&yoga page, were made for screens with a max width of 1250px based on the testing conducted with Chrome Developer Tools.
 
 The website now has a fully responsive design and users can interact with the features easily on different screen sizes and devices.
+
+**Lighthouse**
+
+Lighthouse testing was conduced through Chrome Developer Tools:
+
+![nav](assets/images/lighthouse.png)
 
 **Other general testing**
 
@@ -111,9 +116,7 @@ While the website was being built, features were tested and viewed through Googl
 
 The site was deployed to GitHub pages:
 
-GitHub repository -> Settings tab
-
-Selected 'Pages' and changed source to 'main' and folder to 'root'
+This was done by going to GitHub repository -> Settings tab. Selected 'Pages' and changed source to 'main' and folder to 'root'
 
 Live link for page: https://caoimhed.github.io/meditation-yoga/
 
@@ -122,6 +125,8 @@ Local deployment:
 This was done through Command prompt (git clone and paste https://github.com/caoimheD/meditation-yoga.git)
 
 ![nav](assets/images/gitclone.png)
+
+This means that the site was cloned into a local folder and is now also accessible locally.
 
 ---
 

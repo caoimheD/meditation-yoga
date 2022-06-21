@@ -415,8 +415,7 @@ footer {
     }
     .options {
         display: grid;
-        
+        padding: 2px;
     }
-
-
+    
 }
